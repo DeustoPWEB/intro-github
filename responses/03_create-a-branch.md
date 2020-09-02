@@ -50,12 +50,11 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
       ```shell
       {{ thePayload.repository.clone_url }}
       ```
-1. Selecciona la ubicación en el que quieres guardar el repositorio y haz clic en **Choose folder**. Después, abre la ubicación que seleccionaste.  
+1. Selecciona la ubicación en el que quieres guardar el repositorio y haz clic en **Choose folder**. Después, abre la ubicación que seleccionaste (haciendo clic en **Open**).  
 1. El directorio del repositiorio debería estar ahora abierto en tu proyecto de VS Code. Haz clic en `master` en la parte inferior de la ventana de VS Code. Esto abrirá la Paleta de Comandos con todos los comandos relacionados a ramas de Git. 
       ![una captura de pantalla de las ramas de Git en VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
 1. Haz clic en **Create new branch** e ingresa cualquier nombre que le quieras dar a tu rama, como `mi-rama`. A continuación, presiona <kbd>Enter</kbd>.
-1. Cuando te hagan seleccionar la rama que servirá de referencia para tu nueva rama, selecciona `master`.
-1. Ve a la vista de Source Control, haz clic en los punto suspensivos (...) y selecciona **Push**. En la caja de diálogo preguntándote si quieres publicar tu rama, confirma que sí.
+1. Ve a la vista de Source Control, haz clic en los punto suspensivos (...) y selecciona **Pull, Push > Push**. En la caja de diálogo preguntándote si quieres publicar tu rama, confirma que sí.
       ![una captura de pantalla de la vista de Source Control en VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
 
 {% else %}

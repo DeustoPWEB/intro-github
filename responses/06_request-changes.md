@@ -31,7 +31,7 @@ Agreguemos contenido a tu archivo. Reemplaza la línea 5 de tu archivo con una c
 1. Reemplaza la línea 5 de tu archivo con algo nuevo.
 1. Añade tus nuevos cambios. Recuerda: puedes hacer esto desde la vista de Source Control, haz clic en el símbolo **+** al lado del archivo.
 1. Haz una confirmación de cambios. Puedes hacer esto desde la vista de Source Control, incluyendo un mensaje de confirmación en el recuadro de texto y después presionando <kbd>Ctrl+Enter</kbd> en Windows o <kbd>Comando ⌘+Enter</kbd> en macOS.
-1. Sube tus cambios a GitHub. En la vista de Source Control, haz clic en los puntos suspensivos (...), y selecciona **Push**.
+1. Sube tus cambios a GitHub. En la vista de Source Control, haz clic en los puntos suspensivos (...), y selecciona **Pull, Push > Push**.
 
 {% else %}
 1. Haz clic en [Files Changed tab]({{ url }}) en esta solicitud de extracción

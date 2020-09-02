@@ -3,7 +3,7 @@ description: Si estás buscando una introducción a GitHub fácil y divertida, l
 template:
   name: presentacion-github
   repo: intro-github-plantilla
-  description: 'A robot powered training repository :robot:'
+  description: 'Un repositorio de entrenamiento, gestionado por un robot :robot:'
 preferences:
 - type: radio
   name: gitTool

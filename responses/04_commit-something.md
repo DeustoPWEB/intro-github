@@ -69,7 +69,7 @@ Los siguientes pasos te guiarán a través del proceso de hacer una confirmació
       ![una captura del botón de staging en la vista Source  Control](https://user-images.githubusercontent.com/16547949/53641057-d5b8d100-3bfb-11e9-9b69-53b0661cd5cd.png)
 1. Haz una confirmación de cambios escribiendo un mensaje de confirmación en el campo de texto y después presionando<kbd>Ctrl+Enter</kbd> en Windows o <kbd>Comando ⌘+Enter</kbd> en macOS.
       ![una captura del mensaje de confirmación de cambios VS Code](https://user-images.githubusercontent.com/16547949/53641276-698a9d00-3bfc-11e9-9b3d-01680fd01d7c.png)
-1. Haz clic en los puntos suspensivos (...) y selecciona **Push**.
+1. Haz clic en los puntos suspensivos (...) y selecciona **Pull, Push > Push**.
 
 {% else %}
 1. Crea un nuevo archivo en esta rama, en un directorio llamado `_posts` y llámalo `0000-01-02-{{ user.username }}.md`. Lo puedes hacer usando [este atajo]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) o manualmente de la siguiente manera:
