@@ -1,40 +1,40 @@
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better.
+La gente usa GitHub para construir algunas de las tecnologías más avanzadas del mundo. Tanto si estás realizando visualizaciones de datos como programando un nuevo videojuego, existe toda una comunidad y un conjunto de herramientas en GitHub que pueden ayudarte a hacerlo todavía mejor.
 
-Now, with GitHub Learning Lab, you’ve got a sidekick along your path to becoming an all-star developer.
+Desde gestionar notificaciones hasta combinar solicitudes de extracción, el curso "Introducción a GitHub" de GitHub Learning Lab te guía a través de todo lo que necesitas saber para empezar a realizar contribuciones en menos de una hora. ¿Ves alguna palabra que no entiendes? Hemos incluido un emoji 📖 junto a algunos términos clave. Haz clic en él para ver su definición.
 
-From managing notifications to merging pull requests, GitHub Learning Lab’s “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+## Qué aprenderás 
 
-## What you'll learn
+Responderemos algunas preguntas como:
 
-We'll answer common questions like: 
-- What is GitHub?
-- How does one use GitHub?
-- What are issues and pull requests?
-- How do you create a branch and a commit?
-- How do you use GitHub Pages? 
+- ¿Qué es GitHub?
+- ¿Cómo se usa GitHub?
+- ¿Qué son las propuestas (o _issues_) y solicitudes de extracción (o _pull requests_)?
+- ¿Cómo se crea una rama o una confirmación de cambios?
+- ¿Cómo se usa GitHub Pages?
 
-And when you're done you'll be able to:
-- Communicate in issues
-- Manage notifications
-- Create branches
-- Make commits
-- Introduce changes with pull requests
-- Deploy a web page to GitHub pages
+Y cuando acabes serás capaz de:
 
-## What you'll build
-![a gif of a slide show running on a browser](https://user-images.githubusercontent.com/16547949/69274863-44362880-0ba9-11ea-98f6-b58cfc9eab02.gif)
+- Comunicarte en las propuestas
+- Gestionar tus notificaciones
+- Crear ramas
+- Hacer confirmaciones de cambios
+- Introducir cambios mediante solicitudes de extracción
+- Implementar un sitio web mediante GitHub Pages
 
-- Completed [source repository](https://github.com/githubtraining/github-slideshow-demo/)
-- Interactive [slideshow](https://githubtraining.github.io/github-slideshow-demo/) deployed to GitHub Pages.
 
-## Prerequisites
-None. This course is a great introduction for your first day on GitHub.
+## Lo que vas a construir
+![un gif de una presentación en un navegador](https://user-images.githubusercontent.com/16547949/69274863-44362880-0ba9-11ea-98f6-b58cfc9eab02.gif)
 
-## Projects used
-This makes use of the following open source projects. Consider exploring these repos and maybe even making contributions!
-- [reveal.js](https://github.com/hakimel/reveal.js): A framework for creating presentations using HTML
-- [Jekyll](https://github.com/jekyll/jekyll): a simple, blog-aware, static site generator.
+- [Repositorio fuente](https://github.com/DeustoPWEB/intro-github-completado) completado
+- [Presentación](https://DeustoPWEB.github.io/intro-github-completado) interactiva implementada en GitHub Pages.
 
-## Audience
+## Prerrequisitos
+Ninguno. Este curso es una estupenda introducción para tu primer día en GitHub.
 
-New developers, new GitHub users, users new to Git, students, managers, teams
+## Proyects usados
+Este curso hace uso de los siguientes proyectos de código abierto. Considera explorar estos repositorios, ¡puede que incluso hacer alguna contribución!
+- [reveal.js](https://github.com/hakimel/reveal.js): Un framework para crear presentaciones usando HTML
+- [Jekyll](https://github.com/jekyll/jekyll): un generador de sitios estáticos simple y optimizado para crear blogs.
+
+## Audiencia
+Nuevos usuarios de GitHub, usuarios que no conocen git, estudiantes...
