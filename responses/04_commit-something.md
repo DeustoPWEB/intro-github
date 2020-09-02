@@ -1,93 +1,93 @@
-## Step 5: Commit a file
+## Paso 5: Confirma un archivo
 
-:tada: You created a branch!
+:tada: ¡Haz creado una rama!
 
-Creating a branch allows you to make modifications to your project without changing the deployed `master` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+Crear una rama te permite hacer modificaciones a tu proyecto sin tener que cambiar la rama `master`. Ahora que tienes una rama, es hora de crear un archivo y ¡hacer tu primera confirmación de cambios!
 
 <details><summary>Commits 101</summary>
 
 ## Commits 101
 
-When you’re finished creating or making changes to a file on GitHub, scroll to the bottom of the page. Then find the "Commit new file" section.
+Cuando hayas terminado de crear o hacer cambios a tu archivo en GitHub, desplázate hasta la parte inferior de la página. Después, encuentra la sección titulada "Commit new file".
 
-In the first field, type a commit message. The commit message should briefly tell contributors about the changes you are introducing to the file.
+En el primer campo, escribe un mensaje de confirmación (o _commit message_). El mensaje debe informar a tus colaboradores de forma breve sobre los cambios que has introducido al archivo. 
 
-### Rules to live by for commit messages:
+### Recomendaciones para los mensajes de confirmación:
 
-- Don’t end your commit message with a period.
-- Keep your commit messages to 50 characters or less. Add extra detail in the extended description window if necessary. This is located just below the subject line.
-- Use active voice. For example, "add" instead of "added" and "merge" instead of "merged".
-- Think of your commit as expressing intent to introduce a change.
+- No termines tu mensaje con un punto. 
+- Mantén tu mensaje con 50 o menos caracteres. Si es necesario añade detalles extra en la ventana de descripción extendida. Esta se encuentra justo debajo de la línea de asunto. 
+- Usa la voz activa. Por ejemplo, "añade" en vez de "añadí" y "une" en vez de "uní".
+- Piensa en tu confirmación de cambios como una manera de expresar que quieres introducir una modificación. 
 
 <hr>
 </details>
 
-### :keyboard: Activity: Your first commit
+### :keyboard: Actividad: Tu primera confirmación de cambios (o _commit_)
 
-The following steps will guide you through the process of committing a change on GitHub.
+Los siguientes pasos te guiarán a través del proceso de hacer una confirmación de cambios (_commit_) para una modificación en GitHub. 
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to your branch:
+1. Selecciona tu rama:
       ```shell
       git checkout {{ thePayload.ref }}
       ```
-1. Create a new file named `_posts/0000-01-02-{{ user.username }}.md`.
-1. Add the following content to your file:
+1. Crea un nuevo archivo llamado `_posts/0000-01-02-{{ user.username }}.md`.
+1. Añade el siguiente contenido a tu archivo:
       ```yaml 
       ---
       layout: slide
-      title: "Welcome to our second slide!"
+      title: "Bienvenidos a la segunda página!"
       ---
-      Your text
-      Use the left arrow to go back!
+      Tu texto
+      Utiliza la flecha hacia la izquierda para volver!
       ```
-1. Stage your new file:
+1. Añade tu nuevo archivo:
       ```shell
       git add _posts/0000-01-02-{{ user.username }}.md
       ```
-1. After adding the text, commit the change while providing a commit message. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions:
+1. Después de añadir tu texto, haz una confirmación de cambios y agrega un mensaje de confirmación, comprueba el desplegable **Commits 101**, justo arriba de estas instrucciones:
       ```shell
-      git commit -m "<YOUR-MESSAGE>"
+      git commit -m "<TU-MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Manda tu nueva confirmación de cambios a GitHub:
       ```shell
       git push
       ```
 
 {% elsif preferences.gitTool == 'vscode' %}
-1. In the `_posts` folder, create a new file named `0000-01-02-{{ user.username }}.md`. The full path to your file will be: `_posts/0000-01-02-{{ user.username }}.md`.
-1. Add the following content to your file and save it:
+1. En el directorio `_posts` , crea un nuevo archivo llamado `0000-01-02-{{ user.username }}.md`. La ruta completa a tu archivo será: `_posts/0000-01-02-{{ user.username }}.md`.
+1. Añade el siguiente contenido a tu archivo y guárdalo:
       ```yaml 
       ---
       layout: slide
-      title: "Welcome to our second slide!"
+      title: "Bienvenidos a la segunda página!"
       ---
-      Your text
-      Use the left arrow to go back!
+      Tu texto
+      Utiliza la flecha hacia la izquierda para volver!
       ```
-1. To stage your new file: go to the Source Control view and click the **+** button next to the file. You can also follow along with [VS Code's official documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
-      ![a screenshot of the staging button in the source control view](https://user-images.githubusercontent.com/16547949/53641057-d5b8d100-3bfb-11e9-9b69-53b0661cd5cd.png)
-1. Commit the change by typing a commit message in the text field and pressing <kbd>Ctrl+Enter</kbd> on Windows or <kbd>Command ⌘+Enter</kbd> on macOS.
-      ![a screenshot of the commit message on VS Code](https://user-images.githubusercontent.com/16547949/53641276-698a9d00-3bfc-11e9-9b3d-01680fd01d7c.png)
-1. Click on the ellipsis (...) and select **Push**.
+1. Para añadir tu nuevo archivo ve a la vista de Source Control y haz clic en el botón **+** a lado del archivo. También puedes seguir este paso con la [documentación oficial de VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_commit).
+      ![una captura del botón de staging en la vista Source  Control](https://user-images.githubusercontent.com/16547949/53641057-d5b8d100-3bfb-11e9-9b69-53b0661cd5cd.png)
+1. Haz una confirmación de cambios escribiendo un mensaje de confirmación en el campo de texto y después presionando<kbd>Ctrl+Enter</kbd> en Windows o <kbd>Comando ⌘+Enter</kbd> en macOS.
+      ![una captura del mensaje de confirmación de cambios VS Code](https://user-images.githubusercontent.com/16547949/53641276-698a9d00-3bfc-11e9-9b3d-01680fd01d7c.png)
+1. Haz clic en los puntos suspensivos (...) y selecciona **Push**.
 
 {% else %}
-1. Create a new file on this branch, in a `_posts` folder called `0000-01-02-{{ user.username }}.md`. You can do so using [this shortcut]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) or manually as follows:
-      - Return to the "Code" tab
-      - In the branch drop-down, select "{{ thePayload.ref }}"
-      - Click **Create new file**
-      - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`. Entering the `/` in the filename will automatically place your file in the `_posts` directory.
-1. When you’re done naming the file, add the following content to your file:
-      ```yaml
+1. Crea un nuevo archivo en esta rama, en un directorio llamado `_posts` y llámalo `0000-01-02-{{ user.username }}.md`. Lo puedes hacer usando [este atajo]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) o manualmente de la siguiente manera:
+      - Regresa a la pestaña "Code"
+      - En la lista desplegable de ramas, selecciona "{{ thePayload.ref }}"
+      - Haz clic en **Create new file**
+      - En el campo "file name", escribe `_posts/0000-01-02-{{ user.username }}.md`. Escribir `/` en el nombre del archivo va a poner tu archivo automáticamente en el directorio `_posts`.
+1. Cuando hayas acabado de nombrar tu archivo, añade el siguiente contenido a tu archivo:
+      ```yaml 
       ---
       layout: slide
-      title: "Welcome to our second slide!"
+      title: "Bienvenidos a la segunda página!"
       ---
-      Your text
-      Use the left arrow to go back!
+      Tu texto
+      Utiliza la flecha hacia la izquierda para volver!
       ```
-1. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions
-1. When you’ve entered a commit message, click **Commit new file**
+1. Después de añadir tu texto, puedes hacer una confirmación de cambios al agregar un mensaje de confirmación en el campo text-entry abajo de la vista de edición de archivo. Para más información sobre mensajes de confirmación, comprueba el desplegable **Commits 101** , justo arriba de estas instrucciones:
+1. Cuando hayas escrito tu mensaje de confirmación , haz clic en **Commit new file**
 {% endif %}
 <hr>
-<h3 align="center">I'll respond when I detect a new commit on this branch.</h3>
+<h3 align="center">Responderé cuando haya detectado una nueva confirmación de cambio en esta rama.</h3>

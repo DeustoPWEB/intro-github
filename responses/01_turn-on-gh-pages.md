@@ -1,20 +1,20 @@
-## Step 2: Turn on GitHub Pages
+## Paso 2: Activa GitHub Pages
 
-:tada: You're now the proud manager of this issue! Now that you've assigned yourself, people who drop by know that they're welcome to participate, but you'll be carrying this issue across the finish line. :sunglasses:.
+:tada: ¡Ahora eres quien supervisa esta propuesta! Ahora que te has autodesignado, las personas que vean tu propuesta sabrán que su participación es bienvenida, pero tú estás al cargo de llevar esta propuesta hasta el punto final :sunglasses:.
 
-### Let's use GitHub Pages
+### Usemos GitHub Pages
 
-Now, on to business! GitHub Pages allow you to serve a static site from a repository. We've filled this repository with some site content, but the rendered site isn't visible right now. Let's change that.
+¡Ahora, a lo que venimos! GitHub Pages te permite servir un sitio estático basado en un repositorio. Hemos llenado este repositorio con contenido, pero el sitio aún no es visible. Cambiemos eso.
 
-### :keyboard: Activity: Enable GitHub Pages
+### :keyboard: Actividad: Habilita GitHub Pages
 
-1. Click on the [**Settings**]({{ repoUrl }}/settings) tab in this repository
-1. Scroll down to the "GitHub Pages" section
-1. From the "Source" drop down, select **master branch**
+1. Haz clic en la pestaña [**Settings**]({{ repoUrl }}/settings) de este repositorio
+1. Navega a la sección de GitHub Pages
+1. En la lista llamada "Source" selecciona **master branch**
 
-> Note: Even though you'll see an option to choose a theme, do not apply a theme at this point. We've protected the code so you can't make unintended changes. You'll have the opportunity to apply a theme when the course is completed. 
+> Nota: Aunque puedes ver una opción para escoger un tema, no apliques ningún tema en este momento. Hemos protegido el código para que no puedas hacer cambios involuntarios. Tendrás oportunidad de usar un tema cuando terminemos el curso.
 
 <hr>
-<h3 align="center">I'll respond in this issue when I detect GitHub Pages has deployed your site.</h3>
+<h3 align="center">Responderé en esta propuesta cuando detecte que GitHub Pages ha implementado tu página.</h3>
 
-> Turning on GitHub Pages creates a deployment of your repository. I may take up to a minute to respond as I await the deployment.
+> Activar GitHub Pages crea una implementación de tu repositorio. Me podré tomar hasta un minuto para responder mientras espero que la implementación termine. 

@@ -1,14 +1,14 @@
-## Step 3: Close an issue
+## Paso 3: Cierra una propuesta
 
-You turned on GitHub Pages!
+¡Haz activado GitHub Pages!
 
-Your site is now visible to the public. Check it out at {{ store.pagesUrl }}.
+Ahora tu sitio es visible para el público. Compruébalo en {{ store.pagesUrl }}.
 
-Now that you’ve completed the tasks in this issue, it's time to close it! Closing an issue tells other contributors that this particular conversation or task has come to an end.
+Ahora que ya completaste las tareas en esta propuesta, ¡es hora de cerrarla! Cerrar una propuesta les dice al resto de colaboradores que esta conversación o tarea en particular ha sido completada. 
 
-### :keyboard: Activity
+### :keyboard: Actividad
 
-1. Click the **Close issue** button below
+1. Haz clic en el botón de **Close issue** aquí abajo
 
 <hr>
-<h3 align="center">I'll respond when you've closed this issue.</h3>
+<h3 align="center">Responderé cuando hayas cerrado esta propuesta.</h3>

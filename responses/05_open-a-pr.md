@@ -1,30 +1,30 @@
-## Step 6: Open a pull request
+## Paso 6: Abre una solicitud de extracción
 
-Nice work making that commit :sparkles:
+Buen trabajo haciendo esa confirmación de cambios :sparkles:
 
-Now that you’ve created a commit, it’s time to share your proposed change through a pull request! Where issues encourage discussion with other contributors and collaborators on a project, pull requests help you share your changes, receive feedback on them, and iterate on them until they’re perfect!
+Ahora que has creado una confirmación de cambios, ¡es hora de compartir los cambios que propones por medio de una solicitud de extracción (o _pull request_)! Mientras que las propuestas (_issues_) fomentan la discusión con otros colaboradores de un proyecto, las solicitudes de extracción (_pull requests_) te ayudan a compartir tus cambios, recibir notas acerca de tus cambios y seguir trabajando en tus cambios ¡hasta que estén perfectos!
 
-<details><summary>What is a pull request?</summary>
+<details><summary>¿Qué es una solicitud de extracción?</summary>
 
-## Pull requests
+## Solicitudes de extracción (o _pull requests_)
 
-Let’s think back to the GitHub flow again. You have created a branch, added a file, and committed the file to your branch. Now it’s time to collaborate on your file with other students taking this class. This collaboration happens in a pull request. Check out this video to learn more:
+Pensemos de nuevo en el flujo de GitHub. Has creado una rama, agregaste un archivo, e hiciste una confirmación de cambios de ese archivo en tu rama. Ahora es hora de colaborar en tu archivo con otros estudiantes que toman esta clase. Esta colaboración sucede dentro de una solicitud de extracción. Mira este video para aprender más:
 
-:tv: [Video: Introduction to pull requests](https://youtu.be/kJr-PIfLDl4)
+:tv: [Video: Introducción a las solicitudes de extracción](https://youtu.be/kJr-PIfLDl4)
 <hr>
 </details>
 
-This pull request is going to keep the changes you just made on your branch and propose applying them to the `master` branch.
+Esta solicitud de extracción mantendrá los cambios que hiciste dentro de tu rama y propondrá aplicarlos a la rama `master`.
 
-### :keyboard: Activity: Create a pull request
+### :keyboard: Actividad: Crea una solicitud de extracción
 
-1. Open a pull request using [this shortcut]({{ url }}) or manually as follows:
-    - From the "Pull requests" tab, click **New pull request**
-    - In the "base:" drop-down menu, make sure the "master" branch is selected
-    - In the "compare:" drop-down menu, select "{{ branch | remove: 'refs/heads/' }}"
-1. When you’ve selected your branch, enter a title for your pull request. For example `Add {{ user.username }}'s file`
-1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
-1. Click **Create pull request**
+1. Abre una solicitud de extracción usando [este atajo]({{ url }}) o manualmente, así:
+    - Desde la pestaña "Pull requests", haz clic en **New pull request**
+    - En la lista desplegable llamada "base:", asegúrate que la rama "master" esté seleccionada
+    - En la lista desplegable llamada "compare:", selecciona "{{ branch | remove: 'refs/heads/' }}"
+1. Cuando hayas seleccionado tu rama, escribe un título para tu solicitud de extracción. Por ejemplo `Añadir el archivo de {{ user.username }}`
+1. El siguiente campo te ayuda a agregar una descripción de los cambios que has hecho. Agrega una descripción de los cambios que has hecho hasta ahora. Recordatorio: has creado una rama, creado un archivo e iniciado la confirmación de cambios correspondiente y por último has abierto una solicitud de extracción
+1. Haz clic en **Create pull request**
 
 <hr>
-<h3 align="center">I'll respond in your new pull request.</h3>
+<h3 align="center">Responderé dentro de tu nueva solicitud de extracción.</h3>

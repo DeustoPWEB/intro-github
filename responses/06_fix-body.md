@@ -1,14 +1,14 @@
-Good pull requests have a body description that tells other contributors about the change you're suggesting, so they understand the context.
+Las buenas solicitudes de extracción tienen una descripción que ofrece información al resto de colaboradores acerca del cambio que estás sugiriendo. Esto es para que comprendan mejor el contexto.
 
-Let's edit this pull request to add a body description.
+Editemos esta solicitud de extracción para agregar una descripción.
 
-## :keyboard: Activity: Fixing your pull request
+## :keyboard: Actividad: Arreglando tu solicitud de extracción
 
-1. The first comment on your pull request will have the default text of **No description provided**. Click on the **...** icon located at the top right corner of the comment box, then click on **Edit** to make an edit
-1. Add a description of the changes you've made in the comment box. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
-1. Click the green **Update comment** button at the bottom right of the comment box when done
+1. El primer comentario que tu solicitud de extracción contendrá el texto predeterminado de **No description provided**. Haz clic en el icono **...** en la esquina superior derecha de la caja de comentario, y después haz clic en **Edit** para editar.
+1. Agrega una descripción de los cambios que has hecho en la caja de comentario. Si deseas puedes agregar una descripción de tus logros hasta ahora. Recuerda: has creado una rama, creado un archivo y su confirmación de cambios correspondiente, y abriste una solicitud de extracción.
+1. Cuando termines, haz clic al botón verde **Update comment** que se encuentra en el lado inferior derecho de la caja de comentario.
 
-If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda buscando una solución a tu problema, crea una publicación en [GitHub Community]({{ communityBoard }}). También puedes buscar otras publicaciones acerca de tu problema si otras personas lo han resuelto previamente.
 
 <hr>
-<h3 align="center">I'll respond when I detect this pull request's body has been edited.</h3>
+<h3 align="center">Responderé cuando detecte que el cuerpo de esta solicitud de extracción ha sido editado.</h3>

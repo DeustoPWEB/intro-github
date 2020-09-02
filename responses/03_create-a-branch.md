@@ -1,71 +1,70 @@
-## Step 4: Create a branch
+## Paso 4: Crea una rama
 
-Let’s complete the first step of the GitHub flow: creating a branch <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
+Completemos el primer paso del flujo de GitHub: crear una rama (o _branch_) <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
 
-<details><summary>Creating a branch</summary>
+<details><summary>Creando una rama</summary>
 
-## Creating a branch
+## Creando una rama
 
-:tv: [Video: Branches](https://www.youtube.com/watch?v=xgQmu81G1yY)
+:tv: [Video: Ramas](https://www.youtube.com/watch?v=xgQmu81G1yY)
 
-You just learned how to create a branch—the first step in the GitHub flow.
+Acabas de aprender cómo crear una rama—el primer paso del flujo de GitHub. 
 
-Branches are an important part of the GitHub flow because they allow us to separate our work from the `master` branch. In other words, everyone's work is safe while you contribute.
+Las ramas son una parte importante del flujo de GitHub porque nos permite separar nuestro trabajo de la rama principal o `master`. En otras palabras, el trabajo de todos está a salvo mientras aportas contribuciones. 
 
-### Tips for using branches
+### Tips para usar ramas
+Un solo proyecto puede tener cientos de ramas, cada una sugiriendo un nuevo cambio a la rama principal o `master`.
 
-A single project can have hundreds of branches, each suggesting a new change to the `master` branch.
-
-The best way to keep branches organized with a team is to keep them concise and short-lived. In other words, a single branch should represent a single new feature or bug fix. This reduces confusion among contributors when branches are only active for a few days before they’re merged <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> into the `master` branch.
+La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas concisas y efímeras. En otras palabras, una sola rama debería representar solamente una nueva característica o una corrección de errores. Esto permite que haya menos confusión entre colaboradores cuando las ramas solamente están activas por unos días antes de que sean fusionadas <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> con la rama principal o `master`.  
 
 <hr>
 </details>
 
-### :keyboard: Activity: Your first branch
+### :keyboard: Actividad: Tu primera rama
 
 {% if preferences.gitTool == 'cli' %}
-1. Open your preferred command line interface, which we'll call your shell from now on.
-1. Clone this repository:
+1. Abre tu interfaz de línea de comandos (CLI) preferida, a la cual llamaremos shell de aquí en adelante. 
+1. Clona este repositorio:
       ```shell
       git clone {{ thePayload.repository.clone_url }}
       ```
-1. Navigate to the repository in your shell:
+1. Navega a este repositorio en tu shell:
       ```shell
       cd {{ thePayload.repository.name }}
       ```
-1. Create a branch, use whatever name you like. Feel free to use the suggested name below. 
+1. Crea una rama, usa el nombre que quieras. Siéntete libre de usar el nombre sugerido a continuación.  
       ```shell
       git branch my-slide
       ```
-1. Push the branch to GitHub:
+1. Sube la rama a GitHub:
       ```
-      git push --set-upstream origin <BRANCH-NAME>
+      git push --set-upstream origin <NOMBRE-DE-LA-RAMA>
       ```
 
 {% elsif preferences.gitTool == 'vscode' %}
-1. Download and open [Visual Studio Code](https://code.visualstudio.com/Download) (referred to as VS Code) if you don't already have it.
-1. In VS Code, open the Command Palette using <kbd>Ctrl+Shift+P</kbd> on Windows, or <kbd>Command ⌘+Shift+P</kbd> on macOS. You can also follow [VS Code's official documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository) on cloning.
-1. Type: `git clone` and press <kbd>Enter</kbd>
-      ![a screenshot of vs code with the command palette open](https://user-images.githubusercontent.com/16547949/53639288-bcf9ec80-3bf6-11e9-9d18-d97167168248.png)
-1. Paste in the URL of the repository in the new window and press <kbd>Enter</kbd>:
+1. Descarga y abre [Visual Studio Code](https://code.visualstudio.com/Download) (referido como VS Code) si aún no lo tienes.
+1. En VS Code, abre la Paleta de Comandos (o _Command Palette_) usando <kbd>Ctrl+Mayús+P</kbd> en Windows, o <kbd>Command ⌘+Mayús+P</kbd> en macOS. También puedes seguir [la documentación oficial de VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository) sobre clonar repositorios.
+1. Escribe `git clone`y presiona <kbd>Enter</kbd>
+      ![una captura de pantalla de VS Code con la Paleta de Comandos abierta](https://user-images.githubusercontent.com/16547949/53639288-bcf9ec80-3bf6-11e9-9d18-d97167168248.png)
+1. Pega la URL del repositorio en la nueva ventana y presiona <kbd>Enter</kbd>:
       ```shell
       {{ thePayload.repository.clone_url }}
       ```
-1. Select the location in which to save the repository and click **Choose folder**. Then, open the location you selected.
-1. The repository folder should now be open in your VS Code project. Click on `master` at the bottom left of the VS Code window. This will bring up the Command Palette with the commands related to Git branches.
-      ![a screenshot of the Git branches in VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
-1. Click **Create new branch** and enter any branch name you'd like, such as `my-slide`. Then press <kbd>Enter</kbd>.
-1. When asked to select the ref to create the branch from, select `master`.
-1. Go to the Source Control view, click on the ellipsis (...) and select **Push**. Confirm the dialog box asking you to publish the branch.
-      ![a screenshot of the source control view in VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
+1. Selecciona la ubicación en el que quieres guardar el repositorio y haz clic en **Choose folder**. Después, abre la ubicación que seleccionaste.  
+1. El directorio del repositiorio debería estar ahora abierto en tu proyecto de VS Code. Haz clic en `master` en la parte inferior de la ventana de VS Code. Esto abrirá la Paleta de Comandos con todos los comandos relacionados a ramas de Git. 
+      ![una captura de pantalla de las ramas de Git en VS Code](https://user-images.githubusercontent.com/16547949/53639606-adc76e80-3bf7-11e9-98ac-bd41ae2b40db.png)
+1. Haz clic en **Create new branch** e ingresa cualquier nombre que le quieras dar a tu rama, como `mi-rama`. A continuación, presiona <kbd>Enter</kbd>.
+1. Cuando te hagan seleccionar la rama que servirá de referencia para tu nueva rama, selecciona `master`.
+1. Ve a la vista de Source Control, haz clic en los punto suspensivos (...) y selecciona **Push**. En la caja de diálogo preguntándote si quieres publicar tu rama, confirma que sí.
+      ![una captura de pantalla de la vista de Source Control en VS Code](https://user-images.githubusercontent.com/16547949/53640015-ee73b780-3bf8-11e9-8c90-be9022b9555a.png)
 
 {% else %}
 
-1. Navigate to the [Code tab]({{ thePayload.repository.html_url }})
-2. Click **Branch: master** in the drop-down
-3. In the field, enter a name for your branch, like `my-slide`
-4. Click **Create branch: <name>** or press the <kbd>Enter</kbd> key to create your branch
+1. Navega a la  [pestaña titulada Code]({{ thePayload.repository.html_url }})
+2. Haz clic en **Branch: master** en el desplegable
+3. En el campo, ingresa un nombre para tu rama, como `mi-rama`
+4. Haz clic en **Create branch: <nombre>** o presiona la tecla "Enter" para crear tu rama
 
 {% endif %}
 <hr>
-<h3 align="center">I'll respond when I detect a new branch has been created in this repository.</h3>
+<h3 align="center">Responderé cuando haya detectado que una nueva rama ha sido creada en este repositorio.</h3>

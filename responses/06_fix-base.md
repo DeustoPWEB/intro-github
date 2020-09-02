@@ -1,12 +1,10 @@
-Your base branch should be named `master`. Let's open a new pull request to fix this.
+Tu rama base debe llamarse `master` (principal). Vamos a abrir una nueva solicitud de extracción para arreglar esto.
 
-### :keyboard: Activity: Adjust PR direction
+1. Haz clic en el botón **Edit** que está localizado a la derecha del título de la solicitud de extracción.
+1. Debajo de la cajita del título del comentario, en el menú desplegable "base:", asegúrate que la rama “master” esté seleccionada.
+1. Una ventana pop-up va a aparecer para preguntar si quieres cambiar la "base". Haz clic en el botón verde titulado **Change base**
 
-1. Click on the **Edit** button located to the right of your pull request's title
-1. Below the title's comment box, in the "base:" drop-down menu, make sure the “master” branch is selected
-1. A pop-up window will appear asking if you want to change the "base". Click the green **Change base** button
-
-If you would like assistance troubleshooting the issue you are encountering, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+Si necesitas ayuda buscando una solución a tu problema, crea una publicación en [GitHub Community]({{ communityBoard }}). También puedes buscar otras publicaciones acerca de tu problema si otras personas lo han resuelto previamente.
 
 <hr>
-<h3 align="center">I'll respond when I detect this pull request's base has been edited.</h3>
+<h3 align="center">Responderé cuando detecte que la base de esta solicitud de extracción haya sido editada.</h3>

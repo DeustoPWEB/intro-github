@@ -1,9 +1,9 @@
-### :keyboard: Activity: Reopen pull request
+### :keyboard: Actividad: Vuelve a abrir tu solicitud de extracción
 
-Oooops! It looks like you might have accidentally closed your pull request.
+Oooops! Parece que has cerrado tu solicitud de extracción accidentalmente.
 
-1. Click **Reopen pull request**. If this button is inactive, you will need to click **Restore branch** first
-1. Merge the pull request.
+1. Haz clic en **Reopen pull request**. Si este botón esta inactivo, primero tendrás que hacer clic en **Restore branch**.
+1. Fusiona tu solicitud de extracción.
 
 <hr>
-<h3 align="center">I'll respond when this pull request is merged.</h3>
+<h3 align="center">Responderé cuando esta solicitud de extracción haya sido fusionada.</h3>

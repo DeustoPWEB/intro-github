@@ -1,46 +1,44 @@
-## Step 7: Respond to a review
+## Paso 7: Responde a una revisión
 
-Your pull request is looking great!
+¡Tu solicitud de extracción se ve súper bien!
 
-Let’s add some content to your file. Replace line 5 of your file with a quotation or meme and witty caption. Remember: [Markdown](https://guides.github.com/features/mastering-markdown/) is supported.
+Agreguemos contenido a tu archivo. Reemplaza la línea 5 de tu archivo con una cita textual o con un meme y una leyenda graciosa. Recuerda: es posible usar el formato [Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### :keyboard: Activity: Change your file
+### :keyboard: Actividad: Actualiza tu archivo
 
 {% if preferences.gitTool == 'cli' %}
-1. Check out to your branch:
+1. Usa el comando checkout para cambiar de rama:
     ```shell
     git checkout {{ branch }}
     ```
-1. Open the file `_posts/0000-01-02-{{ user.username }}.md`.
-1. Replace line 5 of the file with something new. 
-1. Stage your new changes:
+1. Abre el archivo `_posts/0000-01-02-{{ user.username }}.md`.
+1. Reemplaza la línea 5 de tu archivo con algo nuevo.
+1. Añade tus nuevos cambios:
     ```shell
     git add _posts/0000-01-02-{{ user.username }}.md
     ```
-1. Commit your changes:
+1. Haz una confirmación de cambios para las modificaciones que acabas de hacer:
     ```shell
-    git commit -m "<YOUR-MESSAGE>"
+    git commit -m "<TU-MENSAJE>"
     ```
-1. Push your edits to GitHub:
+1. Sube tus cambios a GitHub:
     ```shell
     git push
     ```
 
 {% elsif preferences.gitTool == 'vscode' %}
-1. Open the file `_posts/0000-01-02-{{ user.username }}.md`.
-1. Replace line 5 of the file with something new. 
-1. Stage your new changes. As a reminder, you can do this in the Source Control view, click the **+** symbol next to the file.
-1. Commit your changes. You can do this in the Source Control view, enter a commit message in the text field and press <kbd>Ctrl+Enter</kbd> on Windows or <kbd>Command ⌘+Enter</kbd> on macOS.
-1. Push your edits to GitHub. In the Source Control view, click on the ellipsis (...), and select **Push**.
+1. Abre el archivo `_posts/0000-01-02-{{ user.username }}.md`.
+1. Reemplaza la línea 5 de tu archivo con algo nuevo.
+1. Añade tus nuevos cambios. Recuerda: puedes hacer esto desde la vista de Source Control, haz clic en el símbolo **+** al lado del archivo.
+1. Haz una confirmación de cambios. Puedes hacer esto desde la vista de Source Control, incluyendo un mensaje de confirmación en el recuadro de texto y después presionando <kbd>Ctrl+Enter</kbd> en Windows o <kbd>Comando ⌘+Enter</kbd> en macOS.
+1. Sube tus cambios a GitHub. En la vista de Source Control, haz clic en los puntos suspensivos (...), y selecciona **Push**.
 
 {% else %}
-1. Click the [Files Changed tab]({{ url }}) in this pull request
-1. Edit your newly added file
-1. Replace line 5 with something new
-1. Scroll to the bottom and click **Commit Changes**
+1. Haz clic en [Files Changed tab]({{ url }}) en esta solicitud de extracción
+1. Haz clic en el icono de lápiz que puedes encontrar al lado derecho de tu pantalla para editar el archivo que acabas de agregar.
+1. Reemplaza la línea 5 con algo nuevo.
+1. Navega hacia abajo y haz clic en **Commit Changes**
 {% endif %}
 
-**Note** : Can't find the button to edit the file? It may look like a pencil, or it may look like three dots.
-
 <hr>
-<h3 align="center">I'll respond when I detect a commit on this branch.</h3>
+<h3 align="center">Responderé cuando detecte una confirmación de cambios en esta rama</h3>
