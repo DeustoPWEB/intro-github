@@ -25,13 +25,13 @@ Y cuando acabes serás capaz de:
 ## Lo que vas a construir
 ![un gif de una presentación en un navegador](https://user-images.githubusercontent.com/16547949/69274863-44362880-0ba9-11ea-98f6-b58cfc9eab02.gif)
 
-- [Repositorio fuente](https://github.com/DeustoPWEB/intro-github-completado) completado
-- [Presentación](https://DeustoPWEB.github.io/intro-github-completado) interactiva implementada en GitHub Pages.
+- [Repositorio fuente](https://github.com/DeustoPWEB/presentacion-github) completado
+- [Presentación](https://DeustoPWEB.github.io/presentacion-github) interactiva implementada en GitHub Pages.
 
 ## Prerrequisitos
 Ninguno. Este curso es una estupenda introducción para tu primer día en GitHub.
 
-## Proyects usados
+## Proyectos usados
 Este curso hace uso de los siguientes proyectos de código abierto. Considera explorar estos repositorios, ¡puede que incluso hacer alguna contribución!
 - [reveal.js](https://github.com/hakimel/reveal.js): Un framework para crear presentaciones usando HTML
 - [Jekyll](https://github.com/jekyll/jekyll): un generador de sitios estáticos simple y optimizado para crear blogs.
