@@ -10,12 +10,12 @@ preferences:
   label: Preferred Git tool
   description: Learn right from the web UI, or using your chosen tool
   options:
+  - label: Use Visual Studio Code
+    value: vscode
   - label: Use the GitHub.com web interface
     value: dotcom
   - label: Use the command line
     value: cli
-  - label: Use Visual Studio Code
-    value: vscode
 before:
 - type: updateBranchProtection
 - type: createIssue
