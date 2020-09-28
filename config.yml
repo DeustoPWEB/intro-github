@@ -15,7 +15,7 @@ preferences:
     selected: true
   - label: Usa la interfaz web de GitHub.com
     value: dotcom
-  - label: Use the command line
+  - label: Usa la línea de comandos
     value: cli
 before:
 - type: updateBranchProtection
