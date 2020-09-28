@@ -12,6 +12,7 @@ preferences:
   options:
   - label: Use Visual Studio Code
     value: vscode
+    selected: true
   - label: Use the GitHub.com web interface
     value: dotcom
   - label: Use the command line
