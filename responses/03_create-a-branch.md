@@ -41,7 +41,7 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
       git push --set-upstream origin <NOMBRE-DE-LA-RAMA>
       ```
 
-{% elsif preferences.gitTool == 'vscode' %}
+{% elseif preferences.gitTool == 'vscode' %}
 1. Descarga y abre [Visual Studio Code](https://code.visualstudio.com/Download) (referido como VS Code) si aún no lo tienes.
 1. En VS Code, abre la Paleta de Comandos (o _Command Palette_) usando <kbd>Ctrl+Mayús+P</kbd> en Windows, o <kbd>Command ⌘+Mayús+P</kbd> en macOS. También puedes seguir [la documentación oficial de VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository) sobre clonar repositorios.
 1. Escribe `git clone`y presiona <kbd>Enter</kbd>
