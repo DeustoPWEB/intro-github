@@ -12,9 +12,9 @@ preferences:
   options:
   - label: Usa Visual Studio Code
     value: vscode
-    selected: true
   - label: Usa la interfaz web de GitHub.com
     value: dotcom
+    selected: true
   - label: Usa la línea de comandos
     value: cli
 before:
