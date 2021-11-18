@@ -23,7 +23,7 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
 ### :keyboard: Actividad: Tu primera rama
 
 {% if preferences.gitTool == 'cli' %}
-1. Abre tu interfaz de línea de comandos (CLI) preferida, a la cual llamaremos shell de aquí en adelante. 
+1. Abre tu interfaz de línea de comandos (CLI) preferida, a la cual llamaremos shell de aquí en adelante.  
 1. Clona este repositorio:
       ```shell
       git clone {{ thePayload.repository.clone_url }}
