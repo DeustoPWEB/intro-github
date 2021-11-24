@@ -10,11 +10,11 @@ preferences:
   label: Herramienta Git preferida
   description: Aprende directamente desde la interfaz web, o utiliza tu herramienta preferida
   options:
-  - label: Usa Visual Studio Code
-    value: vscode
   - label: Usa la interfaz web de GitHub.com
     value: dotcom
     selected: true
+  - label: Usa Visual Studio Code
+    value: vscode
   - label: Usa la línea de comandos
     value: cli
 before:
