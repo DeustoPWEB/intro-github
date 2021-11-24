@@ -22,7 +22,13 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
 
 ### :keyboard: Actividad: Tu primera rama
 
-{% if preferences.gitTool == 'cli' %}
+{% elseif preferences.gitTool == 'dotcom' %}
+1. Navega a la  [pestaña titulada Code]({{ thePayload.repository.html_url }})
+2. Haz clic en **Branch: master** en el desplegable
+3. En el campo, ingresa un nombre para tu rama, como `mi-rama`
+4. Haz clic en **Create branch: <nombre>** o presiona la tecla "Enter" para crear tu rama
+      
+{% elseif preferences.gitTool == 'cli' %}
 1. Abre tu interfaz de línea de comandos (CLI) preferida, a la cual llamaremos shell de aquí en adelante.  
 1. Clona este repositorio:
       ```shell
