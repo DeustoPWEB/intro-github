@@ -22,7 +22,7 @@ La mejor manera de mantener tus ramas organizadas en un equipo es mantenerlas co
 
 ### :keyboard: Actividad: Tu primera rama
 
-{% elseif preferences.gitTool == 'dotcom' %}
+{% if preferences.gitTool == 'dotcom' %}
 1. Navega a la  [pestaña titulada Code]({{ thePayload.repository.html_url }})
 2. Haz clic en **Branch: master** en el desplegable
 3. En el campo, ingresa un nombre para tu rama, como `mi-rama`
